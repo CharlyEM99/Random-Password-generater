@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="assets/css/style.css" as="style"> <!-- Aqui mejoramos los tiempos de carga (Tiene que ir primero que la hoja de estilos) -->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <title>Random Password generater</title>
+</head>
+<body>
+    <div class="box">
+      <h2>Random Password generater</h2>  
+      <input type="text" placeholder="Crear password"  id="password"readonly>
+      <table>
+        <th> <div id="button" class="btn1" onclick="genPassword()">Generar</div> </th>
+        <th> <a id="button" class="btn2" onclick="copyPassword()">Copiar</a> </th>
+      </table>
+      <br>
+      <a class="ch" href="https://twitter.com/TheCharly8">By CharlyEM =)</a>
+    </div>
+</body>
+<script src="/assets/js/functions_password.js" type="text/javascript"></script>
+</html>
